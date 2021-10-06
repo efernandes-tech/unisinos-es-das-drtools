@@ -1,0 +1,15 @@
+{
+    "name": "ederson.fernandes/drtools-metric-visualization1.6.0",
+    "autoload": {
+        "psr-4": {
+            "EdersonFernandes\\DrtoolsMetricVisualization160\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Éderson Fernandes",
+            "email": "edersonluis.rf@gmail.com"
+        }
+    ],
+    "require": {}
+}
