@@ -1,0 +1,61 @@
+"method","loc","cyclo","calls","nbd","param"
+"org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer()",305,115,189,7,0
+"org.jkiss.dbeaver.ui.controls.resultset.handler.ResultSetHandlerMain.execute(ExecutionEvent event)",379,101,166,6,1
+"org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.parseQuery(final SQLParserContext context, final int startPos, final int endPos, final int currentPos, final boolean scriptMode, final boolean keepDelimiters)",239,84,59,11,6
+"org.jkiss.dbeaver.registry.DataSourceUtils.getDataSourceBySpec(@NotNull DBPProject project, @NotNull String connectionSpec, @Nullable GeneralUtils.IParameterHandler parameterHandler, boolean searchByParameters, boolean createNewDataSource)",278,82,124,7,5
+"org.jkiss.dbeaver.model.sql.format.tokenized.IndentFormatter.formatKeyword(List<FormatterToken> argList, String tokenString, int index)",167,72,55,4,3
+"org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType.readDataType(@NotNull JDBCSession session, @NotNull PostgreDatabase database, @NotNull JDBCResultSet dbResult, boolean skipTables)",231,65,26,4,4
+"org.jkiss.dbeaver.model.impl.jdbc.struct.JDBCTable.readKeyEnumeration(DBRProgressMonitor monitor, DBSEntityAttribute keyColumn, Object keyPattern, List<DBDAttributeValue> preceedingKeys, boolean sortByValue, boolean sortAsc, boolean caseInsensitiveSearch, int maxResults)",196,63,84,6,8
+"org.jkiss.dbeaver.registry.DataSourceSerializerLegacy$DataSourcesParser.saxStartElement(SAXReader reader, String namespaceURI, String localName, Attributes atts)",285,60,231,6,4
+"org.jkiss.dbeaver.model.struct.DBStructUtils.mapTargetDataType(DBSObject objectContainer, DBSTypedObject typedObject, boolean addModifiers)",132,58,74,8,3
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.onMouseDown(MouseEvent e)",203,56,42,6,1
+"org.jkiss.dbeaver.model.exec.DBExecUtils.bindAttributes(@NotNull DBCSession session, @Nullable DBSEntity sourceEntity, @Nullable DBCResultSet resultSet, @NotNull DBDAttributeBinding[] bindings, @Nullable List<Object[]> rows)",236,55,88,7,5
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.onKeyDown(Event e)",209,55,39,6,1
+"org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCCompositeCache.loadObjects(DBRProgressMonitor monitor, OWNER owner, PARENT forParent)",198,54,79,8,3
+"org.jkiss.dbeaver.ui.controls.resultset.spreadsheet.SpreadsheetPresentation.copySelection(ResultSetCopySettings settings)",140,53,88,6,1
+"org.jkiss.dbeaver.erd.ui.model.DiagramLoader.loadDiagram(DBRProgressMonitor monitor, Document document, DBPProject projectMeta, EntityDiagram diagram)",233,52,130,8,4
+"org.jkiss.dbeaver.model.sql.format.tokenized.SQLTokensParser.nextToken()",173,48,73,5,0
+"org.jkiss.dbeaver.tools.transfer.stream.exporter.DataExporterSQL.exportRow(DBCSession session, DBCResultSet resultSet, Object[] row)",154,47,79,7,3
+"org.jkiss.dbeaver.registry.driver.DriverDescriptorSerializerLegacy$DriversParser.saxStartElement(SAXReader reader, String namespaceURI, String localName, Attributes atts)",162,46,124,7,4
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.refreshData(boolean refreshColumns, boolean keepState, boolean fitValue)",167,46,81,6,3
+"org.jkiss.dbeaver.ui.editors.sql.SQLEditor.processQueries(@NotNull final List<SQLScriptElement> queries, final boolean forceScript, boolean newTab, final boolean export, final boolean checkSession, @Nullable final SQLQueryListener queryListener, @Nullable final SQLScriptContext context)",168,45,68,8,7
+"org.jkiss.dbeaver.ui.actions.ObjectPropertyTester.test(Object receiver, String property, Object[] args, Object expectedValue)",158,45,46,5,4
+"org.jkiss.dbeaver.ui.editors.sql.indent.SQLAutoIndentStrategy.transformSourceCode(IDocument document, DocumentCommand command)",130,45,27,5,2
+"org.jkiss.dbeaver.ui.controls.resultset.spreadsheet.Spreadsheet.handleEvent(final Event event)",118,43,43,5,1
+"org.jkiss.dbeaver.ui.navigator.itemlist.ObjectListControl.setListData(Collection<OBJECT_TYPE> items, boolean append, boolean forUpdate, boolean forceUpdateItems)",170,42,67,9,4
+"org.jkiss.dbeaver.registry.DataSourceSerializerModern.parseDataSources(File configFile, DBPDataSourceConfigurationStorage configurationStorage, boolean refresh, DataSourceRegistry.ParseResults parseResults)",322,42,262,7,4
+"org.jkiss.dbeaver.data.console.ConsoleTextPresentation.printGrid()",129,41,80,4,0
+"org.jkiss.dbeaver.ui.controls.resultset.handler.ResultSetPropertyTester.checkResultSetProperty(ResultSetViewer rsv, String property, Object expectedValue)",90,41,62,3,3
+"org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromChildren(DBPObject parent, @Nullable String startPart, boolean addFirst, Map<String,Object> params)",126,40,80,7,4
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.updateCellSelection(@NotNull List<GridPos> newCells, int stateMask, boolean dragging, boolean reverseDuplicateSelections, EventSource eventSource)",185,40,46,6,5
+"org.jkiss.dbeaver.ui.controls.resultset.valuefilter.GenericFilterValueEdit.loadMultiValueList(@NotNull Collection<DBDLabelValuePair> values, boolean mergeResultsWithData)",134,39,85,3,2
+"org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectWithParentCache.loadObjects(DBRProgressMonitor monitor, OWNER owner, PARENT forParent)",149,38,63,6,3
+"org.jkiss.dbeaver.ext.mssql.model.SQLServerStructureAssistant.findAllObjects(@NotNull DBRProgressMonitor monitor, @NotNull SQLServerExecutionContext executionContext, @NotNull ObjectsSearchParams params)",161,38,97,5,3
+"org.jkiss.dbeaver.model.sql.parser.SQLWordPartDetector.SQLWordPartDetector(IDocument document, SQLSyntaxManager syntaxManager, int documentOffset, int prevWordsParse)",141,38,44,5,4
+"org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType.getObjectDefinitionText(DBRProgressMonitor monitor, Map<String,Object> options)",125,38,127,4,2
+"org.jkiss.dbeaver.registry.DataSourceSerializerLegacy.saveDataSource(XMLBuilder xml, DataSourceDescriptor dataSource)",194,37,196,6,2
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.onMouseMove(MouseEvent e)",162,37,51,6,1
+"org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBRProgressMonitor monitor, DBXTreeItem meta, final DBNDatabaseNode[] oldList, final List<DBNDatabaseNode> toList, Object source, boolean showSystem, boolean hideFolders, boolean mergeEntities, boolean reflect)",146,37,36,6,9
+"org.jkiss.dbeaver.model.sql.parser.SQLRuleManager.loadRules(@Nullable DBPDataSource dataSource, boolean minimalRules)",171,37,60,4,2
+"org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.getCommandQueues()",129,36,33,10,0
+"org.jkiss.dbeaver.ext.generic.model.meta.GenericMetaModel.loadSchemas(JDBCSession session, GenericDataSource dataSource, GenericCatalog catalog)",158,36,70,8,3
+"org.jkiss.dbeaver.registry.DataSourceSerializerModern.saveDataSource(@NotNull JsonWriter json, @NotNull DataSourceDescriptor dataSource)",180,36,168,7,2
+"org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.extractTableName(@Nullable String tableAlias, boolean allowPartialMatch)",114,36,40,7,2
+"org.jkiss.dbeaver.ui.controls.lightgrid.LightGrid.onPaint(@NotNull PaintEvent e)",254,36,58,6,1
+"org.jkiss.dbeaver.model.impl.jdbc.data.handlers.JDBCContentValueHandler.getValueFromObject(@NotNull DBCSession session, @NotNull DBSTypedObject type, Object object, boolean copy, boolean validateValue)",107,36,51,4,5
+"org.jkiss.dbeaver.ext.vertica.VerticaUtils.resolveValueType(@NotNull String typeName)",63,36,4,4,1
+"org.jkiss.dbeaver.ext.vertica.model.VerticaDataSource.resolveDataKind(@NotNull String typeName, int valueType)",56,36,4,1,2
+"org.jkiss.dbeaver.erd.ui.model.DiagramLoader.serializeDiagram(DBRProgressMonitor monitor, @Nullable DiagramPart diagramPart, final EntityDiagram diagram, boolean verbose, boolean compact)",208,35,127,8,5
+"org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeDataSourceProposals()",120,35,49,7,0
+"org.jkiss.dbeaver.model.sql.SQLQuery.parseQuery()",88,35,30,6,0
+"org.jkiss.dbeaver.model.impl.sql.AbstractSQLDialect.getColumnTypeModifiers(@NotNull DBPDataSource dataSource, @NotNull DBSTypedObject column, @NotNull String typeName, @NotNull DBPDataKind dataKind)",68,35,33,5,4
+"org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.getDataKind(@NotNull String typeName, int valueType)",57,35,3,5,2
+"org.jkiss.dbeaver.registry.DataSourceProviderRegistry.loadExtensions(IExtensionRegistry registry)",153,35,68,4,1
+"org.jkiss.dbeaver.ext.mssql.model.SQLServerDataType.getDataTypeIDByName(String systemTypeName)",71,35,0,3,1
+"org.jkiss.dbeaver.ext.mssql.model.SQLServerDataType.getDataKindByName(String systemTypeName)",59,35,0,3,1
+"org.jkiss.dbeaver.tools.transfer.database.DatabaseTransferProducer.transferData(@NotNull DBRProgressMonitor monitor1, @NotNull IDataTransferConsumer consumer, @Nullable IDataTransferProcessor processor, @NotNull DatabaseProducerSettings settings, @Nullable DBTTask task)",143,34,62,8,5
+"org.jkiss.dbeaver.ext.mysql.model.MySQLTable.loadForeignKeys(DBRProgressMonitor monitor, boolean references)",145,34,65,7,2
+"org.jkiss.dbeaver.ui.editors.xml.XMLReconcilingStrategy.classifyTag()",131,34,16,5,0
+"org.jkiss.dbeaver.ui.app.standalone.DBeaverSettingsImporter.copyWorkspaceFiles(DBRProgressMonitor monitor, DIR_TYPE parentDirType, File fromDir, File toDir)",119,34,47,5,4
+"org.jkiss.dbeaver.ui.controls.resultset.spreadsheet.SpreadsheetFindReplaceTarget.findAndSelect(int offset, String findString, boolean searchForward, boolean caseSensitive, boolean wholeWord, boolean regExSearch)",101,34,39,4,6
+"org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.extractQueryAtPos(SQLParserContext context, int currentPos)",121,33,40,11,2
